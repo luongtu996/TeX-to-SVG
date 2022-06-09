@@ -1,6 +1,6 @@
 const TeXToSVG = require("../TeXToSVG");
 
-const myTeXEquation = "\\frac{n!}{k!(n-k)!} = \\binom{n}{k}";
+const myTeXEquation = "loe \\\\ k";
 
 const options = {
     width: 1280,
