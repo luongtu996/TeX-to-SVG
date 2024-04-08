@@ -49,7 +49,7 @@ function TeXToSVG(str, opts) {
 
   let svgString = options.container ? adaptor.outerHTML(node) : adaptor.innerHTML(node);
 
-  return opts.styles ? svgString.replace(/<defs>/, `<defs><style>${CSS}</style>`) : svgString;
+  return options.styles ? svgString.replace(/<defs>/, `<defs><style>${CSS}</style>`) : svgString;
 }
 
 module.exports = TeXToSVG;
